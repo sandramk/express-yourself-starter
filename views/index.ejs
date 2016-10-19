@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <title>My First Express App</title>
+        <link rel=stylesheet href="style.css">
     </head>
   <body>
     <h1><%= greeting %></h1>
-    <a href="https://avatars.githubusercontent.com/sandramk"></a>
+    <img src="<%= myPic %>"/>
     <h2><%= iceCreamHeader %></h2>
     <ul>
       <% iceCream.forEach(function(flavor) { %>
